@@ -1,3 +1,7 @@
+mod queue;
+
+use queue::test_queue;
+
 fn main() {
-    println!("Hello, world!");
+    test_queue();
 }
