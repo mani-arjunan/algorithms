@@ -93,6 +93,9 @@ func (h *Heap) heapifyDown(index int) {
 	}
 }
 
+
+// one of the neetcode 150 problem, i have solved with sorting with hashtable, and it got accepted, and then looked the solution there are ways to solve
+// this using heap, so i tried with both minHeap and maxHeap in here.
 func main() {
 	arr := []int{1, 2, 2, 3, 3, 3}
 	// arr := []int{7, 7}
