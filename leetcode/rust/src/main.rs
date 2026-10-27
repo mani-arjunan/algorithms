@@ -3,6 +3,7 @@ mod oct08_26;
 mod oct12_26;
 mod oct13_26;
 mod oct19_21;
+mod oct27_26;
 
 fn main() {
     oct06_26::test_oct06_26();
@@ -10,4 +11,5 @@ fn main() {
     oct08_26::test_remove_outer_parenthesis();
     oct13_26::test_max_alternating_sum();
     oct19_21::test_target_indices();
+    oct27_26::test_create_grid();
 }
