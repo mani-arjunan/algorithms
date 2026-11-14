@@ -6,7 +6,7 @@ func dailyTemperatures(temperatures []int) []int {
 
 	for i, val := range temperatures {
 		for len(stack) > 0 && stack[len(stack)-1][1] < val {
-			stackIndex := stack[len(stack)-1][]
+			stackIndex := stack[len(stack)-1][0]
 			stack = stack[:len(stack)-1]
 			result[stackIndex] = i - stackIndex
 		}
