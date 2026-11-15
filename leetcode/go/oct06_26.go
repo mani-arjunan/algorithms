@@ -19,7 +19,7 @@ func minAdditionToMakeValidString(str string) int {
 	return len(closeStack) + len(stack)
 }
 
-func main() {
-	str := "(("
-	minAdditionToMakeValidString(str)
-}
+// func main() {
+// 	str := "(("
+// 	minAdditionToMakeValidString(str)
+// }

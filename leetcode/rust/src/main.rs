@@ -1,3 +1,4 @@
+mod max_sub_array_sum;
 mod oct06_26;
 mod oct08_26;
 mod oct12_26;
@@ -12,4 +13,5 @@ fn main() {
     oct13_26::test_max_alternating_sum();
     oct19_21::test_target_indices();
     oct27_26::test_create_grid();
+    max_sub_array_sum::test_max_sub_array_sum();
 }
